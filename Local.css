@@ -1,0 +1,110 @@
+body {
+  background: #f4f7fc;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.card {
+  border-radius: 15px;
+  border: none;
+}
+
+.form-control {
+  border-radius: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  transition: 0.3s;
+}
+
+.form-control:focus {
+  border-color: #6c63ff;
+  box-shadow: 0 0 5px rgba(108, 99, 255, 0.3);
+}
+
+
+.btn-primary {
+  background: linear-gradient(135deg, #6c63ff, #4a90e2);
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.btn-primary:hover {
+  transform: scale(1.05);
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+
+th {
+  background: #6c63ff;
+  color: white;
+}
+
+
+td, th {
+  padding: 10px;
+  text-align: center;
+}
+
+
+tr:hover {
+  background: #eef0ff;
+}
+
+
+.product-img {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  transition: 0.3s;
+}
+
+.product-img:hover {
+  transform: scale(1.15);
+}
+
+
+button {
+  padding: 5px 10px;
+  margin: 3px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+
+button:first-child {
+  background: #ff4d4d;
+  color: white;
+}
+
+button:first-child:hover {
+  background: #cc0000;
+}
+
+
+button:last-child {
+  background: #28a745;
+  color: white;
+}
+
+button:last-child:hover {
+  background: #1e7e34;
+}
+
+
+input[type="text"] {
+  border-radius: 10px;
+  padding: 8px;
+}
+
